@@ -4,12 +4,12 @@ A powerful CLI tool to create and modify Git commits with custom dates. Perfect 
 
 ## Features
 
-- ✅ Create empty commits with custom dates
-- ✅ Amend existing commits with new timestamps
-- ✅ Interactive prompts or command-line arguments
-- ✅ Flexible date input (full datetime, date only, or time only)
-- ✅ Future date validation
-- ✅ Cross-platform support (macOS, Linux, Windows)
+-  Create empty commits with custom dates
+-  Amend existing commits with new timestamps
+-  Interactive prompts or command-line arguments
+-  Flexible date input (full datetime, date only, or time only)
+-  Future date validation
+-  Cross-platform support (macOS, Linux, Windows)
 
 ## Installation
 
