@@ -1,19 +1,47 @@
 {
-  "name": "historycommitscli",
+  "name": "github-date-editor",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "CLI tool to create and modify Git commits with custom dates. Perfect for backfilling GitHub contribution graphs.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "github-date-editor": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "git",
+    "github",
+    "commit",
+    "date",
+    "timestamp",
+    "cli",
+    "contribution",
+    "backfill",
+    "amend",
+    "history"
+  ],
+  "author": "Rahian Santos <ter26621@gmail.com>",
   "license": "ISC",
-  "description": "",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "@inquirer/prompts": "^8.3.0",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
+    "@types/node": "^25.3.5",
     "tsx": "^4.21.0"
   }
 }

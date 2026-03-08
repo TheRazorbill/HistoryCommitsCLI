@@ -1,0 +1,28 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Development
+node_modules/
+.git/
+.gitignore
+tsconfig.json
+.vscode/
+.idea/
+
+# Testing
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Build artifacts
+*.log
+npm-debug.log*
+.DS_Store
+
+# Keep these
+!dist/
+!README.md
+!LICENSE
