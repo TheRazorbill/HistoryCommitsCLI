@@ -2,6 +2,13 @@
 
 A powerful CLI tool to create and modify Git commits with custom dates. Perfect for backfilling your GitHub contribution graph or correcting commit timestamps.
 
+```
+This tool is intended for correcting Git metadata such as commits created
+with incorrect system clocks, imported repositories, or historical work.
+```
+
+It should not be used to fabricate contribution activity.
+
 ## Features
 
 -  Create empty commits with custom dates
